@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/26/23||18:58:49" using="Simscape Multibody Link Version 7.4" from="SolidWorks 27.5.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="co_cau_nang_ha_chotkeo" uid="co_cau_nang_ha_chotkeo" version="183">
+<AssemblyFile name="co_cau_nang_ha_chotkeo.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="kinh-1" uid="kinh-1" entityUid="kinh*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.4146134662054376 0.74500165441718924 0.79861857621828125</Translation>
+</Transform>
+</Instance>
+<Instance name="keodai_moi-1" uid="keodai_moi-1" entityUid="keodai_moi*:*Default">
+<Transform>
+<Rotation>0.51927913755602961 0.85460469066058042 0 -0.85460469066058042 0.51927913755602961 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.20805185039418575 0.55530107636387049 0.52751183797991263</Translation>
+</Transform>
+</Instance>
+<Instance name="con_truot-2" uid="con_truot-2" entityUid="con_truot*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.32563693356306 0.7390016544171859 0.79961857621828136</Translation>
+</Transform>
+</Instance>
+<Instance name="thanh_nang_kinh-1" uid="thanh_nang_kinh-1" entityUid="thanh_nang_kinh*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.41161346620543804 0.73900165441718935 0.79861857621828136</Translation>
+</Transform>
+</Instance>
+<Instance name="khung_cua_real-1" uid="khung_cua_real-1" grounded="true" entityUid="khung_cua_real*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.061489959144410078 0.059685345043703819 -0.07299675591758592</Translation>
+</Transform>
+</Instance>
+<Instance name="tvm-1" uid="tvm-1" entityUid="tvm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.034487609980232023 -0.99940512544105531 0 0.99940512544105531 0.034487609980232023</Rotation>
+<Translation>0.56661346620543629 0.43407420031239646 0.82361857621828116</Translation>
+</Transform>
+</Instance>
+<Instance name="bvm-brn-1" uid="bvm-brn-1" entityUid="bvm-brn*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.55191988327103259 0.42842779060638447 0.7644086841154657</Translation>
+</Transform>
+</Instance>
+<Instance name="keongan_moi-2" uid="keongan_moi-2" entityUid="keongan_moi*:*Default">
+<Transform>
+<Rotation>0.5192791375560285 -0.85460469066058087 0 0.85460469066058087 0.5192791375560285 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.44026136214615447 0.45535354526851723 0.671809155023255</Translation>
+</Transform>
+</Instance>
+<Instance name="con_truot-3" uid="con_truot-3" entityUid="con_truot*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.32563693356305823 0.4740742003124036 0.82261857621828127</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>khung_cua_real-1</Uid>
+</InstancePath>
+<Position>0.47012350706102618 0.37438885526869276 0.89661533213586719</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>tvm-1</Uid>
+</InstancePath>
+<Position>-0.035000000000000031 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>khung_cua_real-1</Uid>
+</InstancePath>
+<Position>0.47012350706102618 0.37438885526869276 0.89661533213586719</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tvm-1</Uid>
+</InstancePath>
+<Position>-0.035000000000000031 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>khung_cua_real-1</Uid>
+</InstancePath>
+<Position>0.4251235070610262 0.41438885526869274 0.88861533213586719</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>keodai_moi-1</Uid>
+</InstancePath>
+<Position>0.21406810489596761 0.19588064136789296 0.2881067382383693</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>khung_cua_real-1</Uid>
+</InstancePath>
+<Position>0.4251235070610262 0.41438885526869274 0.88561533213586718</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>keodai_moi-1</Uid>
+</InstancePath>
+<Position>0.21406810489596856 0.19588064136789307 0.28510673823836863</Position>
+<Axis>-3.4914812312600829e-15 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>keodai_moi-1</Uid>
+</InstancePath>
+<Position>-0.09593189510403255 0.19588064136789307 0.2751067382383694</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>con_truot-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>keodai_moi-1</Uid>
+</InstancePath>
+<Position>-0.09593189510403255 0.19588064136789307 0.27210673823836928</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>con_truot-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>con_truot-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>thanh_nang_kinh-1</Uid>
+</InstancePath>
+<Position>0 0 0.0010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>con_truot-2</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 0.0050000000000000044 0.009000000000000008</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>thanh_nang_kinh-1</Uid>
+</InstancePath>
+<Position>-0.26000000000000045 0.0050000000000000044 0.0010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>thanh_nang_kinh-1</Uid>
+</InstancePath>
+<Position>0.26000000000000045 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>kinh-1</Uid>
+</InstancePath>
+<Position>0.46859398684982845 0.16421679110983034 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>thanh_nang_kinh-1</Uid>
+</InstancePath>
+<Position>-0.25999999999999956 0.0060000000000000053 0.010000000000000009</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>kinh-1</Uid>
+</InstancePath>
+<Position>0.29119402422242036 1.1102230246251565e-16 0.0050000000000000044</Position>
+<Axis>1.2276224741246515e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>thanh_nang_kinh-1</Uid>
+</InstancePath>
+<Position>-0.26000000000000045 0.0050000000000000044 0.0010000000000000009</Position>
+<Axis>1 5.5511151231257827e-15 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>kinh-1</Uid>
+</InstancePath>
+<Position>-0.26300000000000001 0 0.010000000000000009</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>khung_cua_real-1</Uid>
+</InstancePath>
+<Position>0.8617174939108545 0.69544620792809109 0.88061533213586718</Position>
+<Axis>-1 -1.9649834846789256e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>kinh-1</Uid>
+</InstancePath>
+<Position>0.50859398684982837 0.16421679110983034 0.0050000000000000044</Position>
+<Axis>1 2.6803169383027387e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>khung_cua_real-1</Uid>
+</InstancePath>
+<Position>0.86171749391085428 1.2738763365576942 0.87161533213586717</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>kinh-1</Uid>
+</InstancePath>
+<Position>0.46859398684982845 0.16421679110983034 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>khung_cua_real-1</Uid>
+</InstancePath>
+<Position>-0.11533591270359178 0.69544620792809075 0.88061533213586718</Position>
+<Axis>1 3.5865290579037807e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>kinh-1</Uid>
+</InstancePath>
+<Position>-0.4684594197646178 0.064820657227139034 0.0050000000000000044</Position>
+<Axis>-1 -3.5248305281353745e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>khung_cua_real-1</Uid>
+</InstancePath>
+<Position>-0.11533591270359184 0.91775287983924114 0.87161533213586717</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>kinh-1</Uid>
+</InstancePath>
+<Position>0.46859398684982845 0.16421679110983034 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>khung_cua_real-1</Uid>
+</InstancePath>
+<Position>0.4251235070610262 0.41438885526869274 0.9016153321358672</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bvm-brn-1</Uid>
+</InstancePath>
+<Position>0.014693582934403704 0.045646409706012081 0.06420989210281558</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>khung_cua_real-1</Uid>
+</InstancePath>
+<Position>0.50512350706102627 0.41438885526869274 0.89161533213586719</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bvm-brn-1</Uid>
+</InstancePath>
+<Position>0.014693582934403704 0.045646409706012081 0.054209892102815571</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>keodai_moi-1</Uid>
+</InstancePath>
+<Position>0.059068104895967588 0.19588064136789296 0.2881067382383693</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>keongan_moi-2</Uid>
+</InstancePath>
+<Position>0.11147668519525555 0.10767981993708284 0.14080942119502804</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>keodai_moi-1</Uid>
+</InstancePath>
+<Position>-0.09593189510403255 0.19588064136789307 0.29110673823836941</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>keongan_moi-2</Uid>
+</InstancePath>
+<Position>-0.043523314804744473 0.10767981993708281 0.14680942119502804</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>thanh_nang_kinh-1</Uid>
+</InstancePath>
+<Position>0.074999999999999678 0 0.0010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>keongan_moi-2</Uid>
+</InstancePath>
+<Position>0.26647668519525558 0.10767981993708284 0.12780942119502803</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>thanh_nang_kinh-1</Uid>
+</InstancePath>
+<Position>0.074999999999999678 0 0.0010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>keongan_moi-2</Uid>
+</InstancePath>
+<Position>0.26647668519525558 0.10767981993708284 0.12780942119502803</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>keongan_moi-2</Uid>
+</InstancePath>
+<Position>-0.043523314804744473 0.10767981993708281 0.15980942119502806</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>con_truot-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>keongan_moi-2</Uid>
+</InstancePath>
+<Position>-0.043523314804744473 0.10767981993708281 0.15980942119502806</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>con_truot-3</Uid>
+</InstancePath>
+<Position>0 0 0.009000000000000008</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>khung_cua_real-1</Uid>
+</InstancePath>
+<Position>0.4251235070610262 0.41438885526869274 0.9046153321358672</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>con_truot-3</Uid>
+</InstancePath>
+<Position>0 0 0.009000000000000008</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>khung_cua_real-1</Uid>
+</InstancePath>
+<Position>0.29512350706102619 0.41938885526869274 0.9046153321358672</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>con_truot-3</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 0.0050000000000000044 0.009000000000000008</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+<Frames>
+</Frames>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="bvm-brn" uid="bvm-brn*:*Default" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bvm-brn.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.9940980628304503e-08</Mass>
+<CenterOfMass>0.014693582934403746 0.045646409706012102 0.059122471528491066</CenterOfMass>
+<Inertia>1.2807903902823376e-11 1.2807903902823362e-11 2.489952421746375e-11 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="bvm-brn_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+<Frame name="SMLINK_BRN" uid="SMLINK_BRN">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.014693582934403749 0.045646409706012081 0.048209892102815621</Translation>
+</Transform>
+</Frame>
+</Frames>
+</Part>
+<Part name="con_truot" uid="con_truot*:*Default" version="116">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="con_truot.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.7898849917653783e-09</Mass>
+<CenterOfMass>0 0 0.0044999999999999997</CenterOfMass>
+<Inertia>2.8845624251536097e-14 1.2629501556535442e-13 1.309771924280579e-13 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="con_truot_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0.20941176470588233" g="0.20941176470588233" b="0.20941176470588233" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="keodai_moi" uid="keodai_moi*:*Default" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="keodai_moi.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.081038341323449059</Mass>
+<CenterOfMass>0.16370528492425634 0.19588064136789296 0.28759305727424489</CenterOfMass>
+<Inertia>7.6716889204454537e-05 0.00071517586716523499 0.00079131686040227549 0 5.8499656405861771e-06 0</Inertia>
+</MassProperties>
+<GeometryFile name="keodai_moi_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0.20941176470588233" g="0.20941176470588233" b="0.20941176470588233" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+<Frame name="SMLINK_BRL" uid="SMLINK_BRL">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.21406810489596845 0.19588064136789299 0.28510673823836868</Translation>
+</Transform>
+</Frame>
+</Frames>
+</Part>
+<Part name="keongan_moi" uid="keongan_moi*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="keongan_moi.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.035557553264521972</Mass>
+<CenterOfMass>0.11147668519525553 0.10767894108021192 0.14380955558161437</CenterOfMass>
+<Inertia>3.612647986614221e-06 0.00023589279459645252 0.0002378619519749074 -4.687919958128438e-11 1.0912524929473314e-05 0</Inertia>
+</MassProperties>
+<GeometryFile name="keongan_moi_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0.20941176470588233" g="0.20941176470588233" b="0.20941176470588233" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="khung_cua_real" uid="khung_cua_real*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="khung_cua_real.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.3407058057715318e-06</Mass>
+<CenterOfMass>0.42033248058806255 0.70293895524841676 0.88901801008973225</CenterOfMass>
+<Inertia>1.0380971043264797e-06 1.4296760491230202e-06 2.4636107855250284e-06 1.2195899113345566e-08 1.1385945821580948e-09 -1.6198546232449534e-07</Inertia>
+</MassProperties>
+<GeometryFile name="khung_cua_real_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="kinh" uid="kinh*:*Default" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="kinh.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.34369640231167e-06</Mass>
+<CenterOfMass>0.072622131970128914 0.26973820462970122 0.0025009615289864067</CenterOfMass>
+<Inertia>5.8931692894246149e-08 1.6005650430705346e-07 2.1897840930631167e-07 5.7110376332024632e-13 7.5086385302407477e-13 -3.4747387985942183e-08</Inertia>
+</MassProperties>
+<GeometryFile name="kinh_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0.20941176470588233" g="0.20941176470588233" b="0.20941176470588233" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="thanh_nang_kinh" uid="thanh_nang_kinh*:*Default" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="thanh_nang_kinh.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.8078584013175385e-08</Mass>
+<CenterOfMass>0.0055906369253044316 0 0.0037429217545745857</CenterOfMass>
+<Inertia>5.6485865047282279e-13 4.3673771727595777e-10 4.3693719703114329e-10 0 -1.7758930277030027e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="thanh_nang_kinh_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0.20941176470588233" g="0.20941176470588233" b="0.20941176470588233" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="tvm" uid="tvm*:*Default" version="178">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="tvm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.0462750510270592e-09</Mass>
+<CenterOfMass>0.00035552074535512637 -4.2056981816946673e-06 2.4703963836280218e-06</CenterOfMass>
+<Inertia>4.279129046404835e-14 1.6643604538681317e-12 1.6643299112254548e-12 0 0 1.0216550179686014e-15</Inertia>
+</MassProperties>
+<GeometryFile name="tvm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0.20941176470588233" g="0.20941176470588233" b="0.20941176470588233" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+<Frame name="SMLINK_TV" uid="SMLINK_TV">
+<Transform>
+<Rotation>0 0 -1 0 -1 0 -1 0 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Frame>
+</Frames>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
